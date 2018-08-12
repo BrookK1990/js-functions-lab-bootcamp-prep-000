@@ -7,5 +7,3 @@ return 'Happy holidays, ${name}!'
 happyHolidaysTo('you')
 
 }
-
-
