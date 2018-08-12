@@ -3,15 +3,15 @@ function happyHolidays() {
 return ("Happy holidays!")
 }
 function happyHolidaysTo(name) {
-  console.log(`Happy holidays, ${name}!`)
+return 'Happy holidays, ${name}!'
+happyHolidaysTo('you')
 
-  happyHolidaysTo('you')
 }
 
 function happyHolidayTo(holiday,name) {
   console.log(`Happy ${holiday}, ${name}!`)
 
-  happyHolidayTo('Independence Day','you')
+  happyHolidayTo(`Independence Day`,`you`)
 }
 function holidayCountdown(holiday,days) {
   console.log(`It's ${days} days until ${holiday}!`)
